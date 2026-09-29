@@ -9,7 +9,7 @@ int fatorial(int n) {
 }
 
 int fat_rec(int n) {
-    int res
+    int res;
     if (n == 1)
         res = 1;
     else
