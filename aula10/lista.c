@@ -27,7 +27,7 @@ int mostra_iniciais(char nome[]) {
 
 int main() {
     char nome[TAM];
-
+    
     printf("Digite um nome: ");
     fgets(nome, TAM, stdin);
     limpar(nome);

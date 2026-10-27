@@ -1,12 +1,10 @@
 #include<stdio.h>
 
 enum moedas {USD, EUR, BRL};
-
 typedef struct {
     enum moedas moeda;
     float valor;
 } cotacao_type;
-
 
 float converte(cotacao_type moedas[], float valor, enum moedas moeda) {
     return valor / moedas[moeda].valor;
